@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="form" method="get">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name">
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" id ="password" name="password" placeholder="Enter your password">
+        <br><br>
+        <label for="gender">Gender :</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="hobby"> Hobbies : </label>
+        <input type="checkbox" id="hobby1" name="hobby" value="sport">
+        <label for="hobby1">Sport</label> 
+        <input type="checkbox" id="hobby2" name="hobby" value="Music">
+        <label for="hobby2">Music</label>
+        <input type="checkbox" id="hobby3" name="hobby" value="Reading">
+        <label for="hobby3">Reading</label>
+        <br><br>
+        <label for="course">Course :</label>
+        <select name="course" id="course">
+            <option value="" disabled selected>  Select your course</option>
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="bsc">BSc</option>
+        </select>
+        <br><br>
+        <label for="address">Address :</label><br>
+        <textarea name="address" placeholder="Enter your address" rows="4" cols="50"></textarea>
+        <br><br>
+        <button type="button">Registration done</button>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
+    <audio src="audio.mp3" autoplay controls>
+    </audio>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o5rvZQMcMss?si=r3xK5XVuZFr9sDyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
