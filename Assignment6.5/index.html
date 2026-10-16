@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>University Registration</h2>
+
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" required>
+        <br><br>
+  
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select Course</option>
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="btech">B.Tech</option>
+            <option value="mba">MBA</option>
+        </select>
+        <br><br>
+
+        
+        <label>Study Mode:</label>
+        <input type="radio" id="regular" name="studyMode"
+               value="regular" required>
+        <label for="regular">Regular</label>
+
+        <input type="radio" id="distance" name="studyMode"
+               value="distance">
+        <label for="distance">Distance</label>
+        <br><br>
+
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+       
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword"
+               name="confirmPassword" required>
+        <br><br>
+
+        
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
